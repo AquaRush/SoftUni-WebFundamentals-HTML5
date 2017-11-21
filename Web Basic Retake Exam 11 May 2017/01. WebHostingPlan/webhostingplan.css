@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300');
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #e0e8e2;
+    text-align: center;
+    font: 14px 'Montserrat', serif;
+}
+
+main {
+    width: 960px;
+    margin: 60px auto;
+}
+
+section {
+    background: #fff;
+    width: 30%;
+    float: left;
+    margin-left: 20px;
+    border-radius: 14px;
+    height: 450px;
+}
+
+.plan {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 100px;
+}
+
+section .plan {
+    text-transform: uppercase;
+    background-color: #c1c1c1;
+    color: #222;
+}
+
+section .plan h2 {
+    padding-top: 20px;
+    font-size: 24px;
+}
+
+section .plan h1 {
+    font-size: 14px;
+    color: #111;
+    font-weight: 400;
+}
+
+section .price {
+    font-weight: 700;
+    color: #222;
+    font-size: 28px;
+    padding-top: 10px;
+}
+
+section span {
+    text-transform: uppercase;
+    color: #222;
+    font-weight: 600;
+}
+
+section p {
+    text-transform: capitalize;
+    border-bottom: 2px solid #c1c1c1;
+    margin-bottom: 20px;
+}
+
+section button {
+    background: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    padding-top: 10px;
+    border: none;
+}
+
+section button:hover {
+    cursor: pointer;
+}

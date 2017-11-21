@@ -1,0 +1,33 @@
+@media only screen and (max-width: 481px) {
+    .header-wrapper > .top-button-container > .top-button {
+        display: none;
+    }
+    .header-wrapper {
+        background: #333;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+    
+    .header-title {
+        font-size: 38px;
+        max-width: 98%;
+    }
+    
+    .header-subtitle {
+        display: none;
+    }
+    
+    .benefits-section {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+}

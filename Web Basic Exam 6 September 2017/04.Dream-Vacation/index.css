@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    outline: none;
+    font-family: sans-serif;
+}
+
+nav, ul {
+    vertical-align: top;
+}
+
+ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: space-between;
+}
+
+header {
+    position: relative;
+    background: #333;
+    z-index: 0;
+}
+
+.opacity {
+    background: url('images/background.jpg');
+    position: absolute;
+    z-index: 1;
+    
+}
+
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 80px;
+}
+
+p {
+    text-align: center;
+    padding-top: 20px;
+}

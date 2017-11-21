@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+    margin: 0;
+    padding: 0;
+    font: 14px 'Lato', 'Montserrat', serif;
+}
+
+header {
+    width: 100%;
+}
+
+header > img {
+    position: absolute;
+    width: 100%;
+    height: 70%;
+}
+
+header > nav > img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 420px;
+}
+
+header > nav > ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    float: right;
+    margin-top: -20px;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+nav {
+    position: relative;
+    max-width: 100%;
+
+}
+
+li,
+a {
+    list-style: none;
+    color: #fff;
+    text-decoration: none;
+    width: 40%;
+    margin-right: 35px;
+}
+
+header > nav > h2 {
+    padding-top: 90px;
+    color: #fff;
+    text-align: center;
+    font-size: 38px;
+    line-height: 30px;
+}
+
+header > nav > p {
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+header > nav > button {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 420px;
+    margin-left: 48%;
+    background: #cabc9a;
+    padding: 10px 20px;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+}
+
+.about-us {
+    padding-top: 240px;
+    text-align: center;
+    background: #fff;
+}
+
+.about-us h2 {
+    text-transform: uppercase;
+    text-shadow: rgb(0, 0, 0) 1px 1px 40px;
+}
+
+.about-us p {
+    font-style: italic;
+    color: #aea09e;
+    font-size: 16px
+}
+
+.about-us h1 {
+    color: #aea09e;
+    padding-top: 40px;
+    font-size: 16px;
+    font-weight: 300;
+    width: 49%;
+    margin: auto;
+    padding-bottom: 60px;
+}
+
+.skills {
+    text-align: center;
+    display: inline-block;
+    width: 33%;
+    padding-bottom: 25px;
+    background-color: #f6f6f6;
+}
+
+.skills > h2 {
+    font-size: 16px;
+    color: #334040;
+}
+
+.skills > p {
+    color: #a2a6b8;
+    width: 42%;
+    margin: auto;
+}
+
+section > img {
+    width: 80px;
+}
+
+.our-team {
+    text-align: center;
+}
+
+.our-team > h2 {
+    text-transform: uppercase;
+    text-shadow: rgb(0, 0, 0) 1px 1px 40px;
+    padding-top: 30px;
+}
+
+.our-team > p {
+    font-style: italic;
+    margin-top: -15px;
+    padding-bottom: 30px;
+}
+
+figure {
+    width: 18%;
+    margin: auto;
+    display: inline-block;
+    margin-left: 6%;
+    text-align: center;
+}
+
+figure img {
+    width: 150px;
+}
+
+figure > h2 {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+
+figure > p {
+    width: 98%;
+    margin: auto;
+    margin-top: -10px;
+    color: #aa9fa4;
+}
+
+.our-blog {
+    background-color: #f6f6f6;
+    max-width: 100%;
+}
+
+.our-blog > h2 {
+    padding-top: 40px;
+    text-align: center;
+    text-shadow: rgb(0, 0, 0) 1px 1px 40px;
+    text-transform: uppercase;
+}
+
+.our-blog > p {
+    font-style: italic;
+    text-align: center;
+    margin-top: -14px;
+    padding-bottom: 30px;
+}
+
+.our-blog img {
+    width: 200px;
+}
+
+.blog-video {
+    background-color: #fff;
+    border: 1px solid #fff;
+    float: left;
+    margin: auto;
+        margin-right: 25px;
+
+    padding-left: 30px;
+    width: 44%;
+    -webkit-box-shadow: 9px 9px 59px -8px rgba(0, 0, 0, 0.62);
+    box-shadow: 9px 9px 59px -8px rgba(0, 0, 0, 0.62);
+}
+
+.blog-image {
+    background-color: #fff;
+    border: 1px solid #fff;
+    margin: 1%;
+    width: 97%;
+    -webkit-box-shadow: 9px 9px 59px -8px rgba(0, 0, 0, 0.62);
+    box-shadow: 9px 9px 59px -8px rgba(0, 0, 0, 0.62);
+}
+
+div.blog-video > h2 {
+    text-transform: uppercase;
+    color: #333;
+    width: 42%;
+    margin-right: 25px;
+    float: right;
+    line-height: 35px;
+    font-size: 17px;
+}
+
+div.blog-video > p {
+    width: 48%;
+    float: right;
+    margin-top: -170px;
+    line-height: 25px;
+}
+
+div.blog-image > h2 {
+    text-transform: uppercase;
+    width: 18%;
+    float: right;
+    margin-right: 70px;
+    line-height: 35px;
+    font-size: 16px;
+}
+
+div.blog-image > p {
+    width: 18%;
+    float: right;
+    margin-right: 70px;
+    margin-top: -170px;
+    line-height: 25px;
+}

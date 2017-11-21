@@ -1,0 +1,77 @@
+@font-face {
+	font-family: Lemon;
+	src: url('fonts/Lemon-regular.ttf');
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Lemon, Arial;
+	font-size: 15px;
+	background-color: #602C70;
+}
+
+#wrapper {
+	width: 900px;
+	margin: 40px auto;
+	background-color: #FFAE30;
+	border-radius: 30px;
+	padding-bottom: 25px;
+}
+
+h1 {
+	padding: 20px 0;
+	text-align: center;
+	font-size: 24px;
+	text-transform: capitalize;
+	margin: 0;
+}
+
+article {
+	width: 215px;
+	display: inline-block;
+	background-color: #602C70;
+	margin: 0 30px;
+	padding: 0 10px;
+	border-radius: 20px 0 20px 0;
+}
+
+img {
+	width: 95%;
+	border-radius: 50%;
+	border: 5px solid #806C70;
+}
+
+p {
+	margin: 0;
+	color: #fff;
+}
+
+.price {
+	text-align: center;
+	margin: 10px 0;
+	font-size: 20px;
+}
+
+.guarantee {
+	text-align: center;
+	color: #FCC160;
+	margin: 10px 0;
+}
+
+button {
+	width: 95%;
+	margin: 15px auto;
+	font-family: Lemon;
+	display: block;
+	font-size: 14px;
+	color: #602C70;;
+	font-style: italic;
+	background: #fff;
+	border: 1px solid #900F14;
+	border-radius: 10px;
+	padding: 5px 0;
+}

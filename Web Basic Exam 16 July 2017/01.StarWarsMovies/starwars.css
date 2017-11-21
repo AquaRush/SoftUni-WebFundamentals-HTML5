@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+
+body {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    background: #264658;
+    font: 14px 'Lato', serif;
+}
+
+main {
+    padding-top: 150px;
+    width: 960px;
+    margin: auto;
+    text-align: center;
+}
+
+main article {
+    width: 30%;
+    height: 500px;
+    margin: 0 15px;
+    background: #fff;
+    float: left;
+}
+
+figure img {
+    height: 200px;
+    vertical-align: middle;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.starwars-title {
+    padding-top: 60px;
+    color: #5184e2;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.starwars-episode {
+    font-size: 28px;
+    font-weight: 300;
+    color: #000;
+}
+
+.primary-btn {
+    background: none;
+    border: 2px solid #5184e2;
+    border-radius: 10px;
+    padding: 14px 40px;
+    text-transform: capitalize;
+    color: #5184e2;
+    font-size: 18px;
+}
+
+.primary-btn:hover {
+    background: #5184e2;
+    cursor: pointer;
+    color: #fff;
+}

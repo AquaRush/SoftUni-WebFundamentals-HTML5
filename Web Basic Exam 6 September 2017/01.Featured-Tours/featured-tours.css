@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font: 14px 'Lato', serif;
+    width: 100%;
+}
+
+header {
+    width: 80%;
+    margin: auto;
+}
+
+header h1, header p {
+    text-align: center;
+}
+
+.intro-description {
+    width: 70%;
+    opacity: .5;
+    margin: auto;
+    padding: 0 0 20px 0;
+}
+
+main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row;
+    flex-flow: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    text-align: center;
+}
+
+main > div {
+    width: 20%;
+}
+
+#icons {
+    padding: 30px 0 0 0;
+    color: tomato;
+}
+
+.destination {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: -10px;
+}
+
+.country {
+    font-weight: 300;
+    opacity: .5;
+}
+
+.price {
+    font-weight: 800;
+}

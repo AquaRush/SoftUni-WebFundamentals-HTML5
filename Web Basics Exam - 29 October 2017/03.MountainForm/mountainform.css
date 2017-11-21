@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Francois+One:300,900');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body {
+    margin: 0;
+    padding: 0;
+    font: 14px 'Francois One', 'Source Sans Pro', serif;
+    background: #f4fcff;
+}
+
+main {
+    width: 1280px;
+    margin: 60px auto;
+    margin-left: 22%;
+}
+
+form {
+    width: 30%;
+    margin: auto;
+}
+
+h2 {
+    width: 186px;
+    font-size: 27px;
+    border-bottom: 3px solid #31d47d;
+    font-weight: 900;
+}
+
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.star {
+    color: red;
+    font-size: 20px;
+}
+
+form > p {
+    font-weight: 300;
+    margin-bottom: 4px;
+}
+
+input {
+    width: 50%;
+    height: 25px;
+}
+
+.icon-positioning {
+    position: relative;
+}
+
+.fa-user-o,
+.fa-envelope,
+.fa-mobile,
+.fa-lock {
+    font-size: 18px;
+    position: absolute;
+    line-height: 135px;
+    margin-left: 5px;
+}
+
+button {
+    background: #31d47d;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    margin-top: 15px;
+    margin-right: 188px;
+    float: right;
+}
+
+button:hover {
+    cursor: pointer;
+}

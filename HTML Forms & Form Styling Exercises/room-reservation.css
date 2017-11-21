@@ -1,0 +1,119 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+body {
+    background-color: #EBEBEB;
+    font: 13px Tahoma, Helvetica, sans-serif;
+}
+
+form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 26px;
+    color: #73A7DA;
+    font-weight: 500;
+    background-color: #F1F1F1;
+    padding: 15px 10px;
+    border-bottom: 1px dashed #ddd;
+}
+
+h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+#info-wrapper p {
+    width: 80%;
+    display: inline-block;
+    margin-right: 30px;
+    float: left;
+}
+
+input, select {
+    height: 25px;
+    padding: 0 5px;
+    margin: 5px 0;
+    border-radius: 3px;
+    border: 1px solid #DDD;
+    background-color: #fff;
+}
+
+label[for=search] {
+    width: 130px;
+    float: left;
+    vertical-align: bottom;
+    font-weight: bold;
+    position: relative;
+}
+
+label[for=search] input {
+    width: 100%;
+    padding: 0 20px 0 0;
+}
+
+i {
+    position: absolute;
+    right: 2px;
+    bottom: 12px
+}
+
+#info-wrapper::after {
+    clear: left;
+    display: block;
+    content: '';
+}
+
+#info {
+    border-bottom: 1px dashed #ddd;
+}
+
+#details, #reservation {
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#details input {
+    display: block;
+}
+
+#reservation input, #reservation select {
+    height: 20px;
+}
+
+#reservation label[for=room] {
+    width: 60%;
+}
+
+#reservation label input, #reservation label select {
+    width: 100%;
+}
+
+#form {
+    border-bottom: 1px dashed #ddd;
+}
+
+button {
+    float: right;
+    margin-top: 15px;
+    background-color: #32A2E4;
+    border-radius: 5px;
+    padding: 6px 25px;
+    color: #fff;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #3BBC96;
+    cursor: pointer;
+}

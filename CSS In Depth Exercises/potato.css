@@ -1,0 +1,184 @@
+@import url('https://fonts.google.com/selection?selection.family=Lato');
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+}
+
+header {
+	background: radial-gradient(ellipse at center,
+  	rgba(192,169,145,1) 0%,
+  	rgba(192,169,145,1) 59%,
+  	rgba(168,143,121,1) 100%);
+}
+
+nav {
+	float: left;
+	text-transform: none;
+	color: #fff;
+    width: 94%;
+    padding: 2%;
+}
+
+nav ul {
+	float: right;
+}
+
+nav li {
+	display: inline-block;
+	margin: 0 15px;
+}
+
+nav p {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+nav li:last-of-type a {
+	background: none;
+	border: 1px solid #fff;
+	border-radius: 18px;
+	padding: 10px 16px;
+}
+
+nav li:last-of-type:hover a {
+	border: 1px solid rgba(107, 107, 107, 0.5);
+	background: rgba(107, 107, 107, 0.5);
+}
+
+header h1 {
+	text-align: center;
+	color: #fff;
+	text-transform: capitalize;
+	font-size: 42px;
+	font-weight: normal;
+	padding-top: 250px;
+	margin-left: 100px;
+}
+
+header h3 {
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	font-weight: lighter;
+	padding-top: 30px;
+	margin-left: 100px;
+}
+
+header img {
+	display: block;
+	width: 27%;
+	margin: 30px auto 0;
+	padding-top: 40px;
+}
+
+.features {
+	background: url("images/potato-background.png") no-repeat;
+	background-size: cover;
+	text-align: center;
+	height: 700px;
+}
+
+.features-title {
+	padding-top: 100px;
+	text-transform: capitalize;
+	font-weight: 300;
+	color: #313131;
+}
+
+.features-subtitle {
+	width: 35%;
+	margin: 0 auto;
+	padding-top: 10px;
+	font-size: 20px;
+	font-weight: lighter;
+	color: #313131;
+}
+
+.buy-now {
+	background: #fff;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.potato {
+	display: inline-block;
+	list-style: none;
+	width: 20%;
+	height: 500px;
+	vertical-align: top;
+	border-right: 1px solid #adadad;
+}
+
+.potato-img {
+	width: 50%;
+	padding-top: 20px;
+	vertical-align: bottom;
+}
+
+.order-title {
+	margin: 0 0 50px;
+    font-weight: lighter;
+    font-size: 3.5em;
+    text-transform: capitalize;
+}
+
+.potato-title {
+	margin: 0 0 50px;
+	font-weight: lighter;
+	font-size: 3em;
+	text-transform: capitalize;
+}
+
+.potato-features {
+	text-align: center;
+	list-style: none;
+}
+
+.potato-description {
+	padding: 12px 0;
+	font-size: 1.2em;
+}
+
+.btn-order {
+	background: none;
+	border: 2px solid #d1e223;
+	color: #d1e223;
+	padding: 7px 20px;
+	border-radius: 25px;
+	text-transform: uppercase;
+	font-size: 1.2em;
+}
+
+.btn-order:hover {
+	background: #d1e223;
+	color: #fff;
+	cursor: pointer;
+}
+
+.potato-price {
+	margin-top: 10px;
+	font-size: 0.9em;
+}
+
+footer {
+	background: #867260;
+}
+
+.footer-text {
+	text-align: center;
+	color: #fff;
+	margin: 0 auto;
+	padding: 10px;
+}

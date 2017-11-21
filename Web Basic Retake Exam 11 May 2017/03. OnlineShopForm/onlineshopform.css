@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #c1c1c1;
+    font: 14px 'Montserrat', serif;
+}
+
+main {
+    width: 1200px;
+    margin: 100px auto;
+}
+
+section {
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    background: #e6e6e6;
+    border-radius: 20px;
+}
+
+.left-side {
+    float: left;
+    width: 27%;
+}
+
+.left-side img {
+    margin: 50px 0;
+    width: 200px;
+}
+
+.right-side h1 {
+    font-size: 12px;
+}
+
+.right-side {
+    width: 45%;
+    float: left;
+}
+
+.row {
+    float: left;
+    width: 40%;
+}
+
+button {
+    float: right;
+}
